@@ -3,8 +3,8 @@ requires      = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sentry_cronjob_monitoring_johanalmquist"
-version = "0.0.2"
+name = "sentry_cronjob_monitoring"
+version = "0.0.3"
 authors = [
   { name="Johan Almquist", email="johan.almquist@aranya.se" },
 ]
