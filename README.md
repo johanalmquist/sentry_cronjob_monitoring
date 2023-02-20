@@ -7,7 +7,7 @@ A small package with a class and a decorator to integrate with Sentrys Cron Moni
 By class
 
 ```python
-from sentry_cronjob_monitoring import Monitor
+from sentry_cronjob_monitoring.cronjob_monitoring import Monitor
 import typer
 
 monitor = Monitor(
@@ -31,7 +31,7 @@ if __name__ == "__main__":
 By decorator
 
 ```python
-from sentry_cronjob_monitoring import with_monitoring
+from sentry_cronjob_monitoring.cronjob_monitoring import with_monitoring
 
 @with_monitoring(
     dsn="https://examplePublicKey@o0.ingest.sentry.io/0",
